@@ -139,15 +139,19 @@ nav h1 a {
   padding: 30px 15px 60px;
   text-align: center;
   box-sizing: border-box;
+  display: flex;
+  flex-wrap: wrap;
 }
 #restaurants-list li {
   background-color: #fff;
   border: 2px solid #ccc;
   font-family: Arial,sans-serif;
-  margin: 15px;
+  margin: auto;
+  margin-bottom: 5px;
   min-height: 380px;
   padding: 0 30px 25px;
   text-align: left;
+  max-width: 350px;
 }
 #restaurants-list .restaurant-img {
   background-color: #ccc;
