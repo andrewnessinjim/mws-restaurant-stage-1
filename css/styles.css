@@ -184,6 +184,8 @@ nav h1 a {
   text-align: center;
   text-decoration: none;
   text-transform: uppercase;
+  box-sizing: border-box;
+  width: 100%;
 }
 
 /* ====================== Restaurant Details ====================== */
