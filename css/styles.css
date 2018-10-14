@@ -110,6 +110,7 @@ nav h1 a {
   background-color: #3397DB;
   text-align: center;
   padding: 10px;
+  box-sizing: border-box;
 }
 .filter-options h2 {
   color: white;
@@ -137,6 +138,7 @@ nav h1 a {
   margin: 0;
   padding: 30px 15px 60px;
   text-align: center;
+  box-sizing: border-box;
 }
 #restaurants-list li {
   background-color: #fff;
