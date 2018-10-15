@@ -259,20 +259,40 @@ nav h1 a {
   padding-bottom: 1pt;
 }
 #reviews-list {
-  margin: 0;
+  margin: auto;
   padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: stretch;
 }
 #reviews-list li {
   background-color: #fff;
   display: block;
   list-style-type: none;
-  margin: 0 0 30px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
   overflow: hidden;
   position: relative;
   border-top-left-radius: 15px;
   border-bottom-right-radius: 15px;
   box-shadow: 2px 2px 2px grey;
+  width: 90%;
 }
+
+@media screen and (min-width: 700px) {
+  #reviews-list li {
+    width: 45%;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  #reviews-list li {
+    width: 30%;
+  }
+}
+
 #reviews-list li p {
   margin: 10px;
 }
