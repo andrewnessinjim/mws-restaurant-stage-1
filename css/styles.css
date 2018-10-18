@@ -331,3 +331,9 @@ nav h1 a {
   width: 25%;
   font-weight: bold;
 }
+
+/*Visually hide the form labels, but still accessible to assistive technologies*/
+.filter-options label {
+  position: absolute;
+  top: -1000px;
+}
