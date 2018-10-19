@@ -4,6 +4,8 @@ let restaurants,
 var newMap
 var markers = []
 
+navigator.serviceWorker.register('/sw.js', {scope: '/'});
+
 /**
  * Fetch neighborhoods and cuisines as soon as the page is loaded.
  */
