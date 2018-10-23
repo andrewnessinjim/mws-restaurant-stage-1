@@ -12,7 +12,7 @@ document.body.addEventListener('keydown', function() {
   document.body.classList.remove('using-mouse');
 });
 
-navigator.serviceWorker.register('/sw.js', {scope: '/'});
+navigator.serviceWorker.register('./sw.js', {scope: '/'});
 
 /**
  * Fetch neighborhoods and cuisines as soon as the page is loaded.
