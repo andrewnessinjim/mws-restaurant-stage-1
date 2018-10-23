@@ -202,8 +202,16 @@ nav h1 a {
   background: blue none repeat scroll 0 0;
   height: 400px;
   width: 100%;
+}
+
+.inside #map-container {
+  margin-top: 132px;
+}
+
+body.using-mouse.inside #map-container {
   margin-top: 130px;
 }
+
 .inside #map {
   background-color: #ccc;
   height: 100%;
@@ -336,4 +344,12 @@ nav h1 a {
 .filter-options label {
   position: absolute;
   top: -1000px;
+}
+
+:focus, #map:focus {
+  outline: red solid 2px;
+}
+
+body.using-mouse :focus {
+  outline: none;
 }
